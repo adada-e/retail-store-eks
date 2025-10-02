@@ -1,22 +1,18 @@
-.terraform/
-*.zip
 # Terraform state files
 *.tfstate
 *.tfstate.backup
 *.tfplan
 
-# Terraform directories
+# Terraform directories (local plugins/providers)
 .terraform/
 
 # AWS CLI installers
 awscliv2.zip
 
-# Other system files
-*.log
+# Backup folders
+backup_tf*/
+backup_tf_old*/
 
-.terraform/
-*.zip
-awscliv2.zip
-*.tfstate
-*.tfstate.backup
-.terraform/
+# Other system/editor files
+*.save
+*.log
