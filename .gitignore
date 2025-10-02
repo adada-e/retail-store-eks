@@ -16,3 +16,7 @@ awscliv2.zip
 
 .terraform/
 *.zip
+awscliv2.zip
+*.tfstate
+*.tfstate.backup
+.terraform/
