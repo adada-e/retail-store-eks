@@ -14,3 +14,5 @@ awscliv2.zip
 # Other system files
 *.log
 
+.terraform/
+*.zip
